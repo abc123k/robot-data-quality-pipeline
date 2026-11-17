@@ -1,0 +1,2 @@
+﻿topic,message_count,payload_bytes,duration_sec,avg_frequency_hz,median_interval_ms,max_interval_ms,duplicate_timestamp_count,warning_gap_count,critical_gap_count
+/chatter,14,336,13.520481,0.962,1000.012,1520.523,0,1,0

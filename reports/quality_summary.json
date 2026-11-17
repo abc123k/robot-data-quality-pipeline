@@ -1,0 +1,35 @@
+{
+  "total_files": 6,
+  "total_messages": 62226,
+  "category_statistics": {
+    "normal": {
+      "file_count": 3,
+      "message_count": 61555
+    },
+    "fault_injection": {
+      "file_count": 2,
+      "message_count": 657
+    },
+    "raw": {
+      "file_count": 1,
+      "message_count": 14
+    }
+  },
+  "quality_status_counts": {
+    "PASS": 3,
+    "ANOMALY_DETECTED": 2,
+    "NOT_APPLICABLE": 1
+  },
+  "anomaly_files": 2,
+  "anomaly_issue_file_counts": {
+    "存在位置越界": 2,
+    "存在时间间隔异常": 1,
+    "关节名称集合与预期不一致": 1,
+    "存在NaN或Inf": 1
+  },
+  "notes": [
+    "异常类型数量表示包含该异常的文件数，不代表异常事件总次数。",
+    "PASS仅表示通过当前实验检测规则。",
+    "NOT_APPLICABLE表示该文件不属于JointState关节数据。"
+  ]
+}

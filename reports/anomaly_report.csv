@@ -1,0 +1,4 @@
+﻿timestamp_ns,joint,field,value,reason,category
+1794905028231867228,joint_3,position,0.8,超过实验阈值,数值范围
+1794905030231904920,ALL,joint_names,missing=['joint_6']; extra=['joint_extra'],关节名称集合与预期不一致,完整性
+1794905031231922020,joint_1,position,nan,NaN或Inf,数值有效性

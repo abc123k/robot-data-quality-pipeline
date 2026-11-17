@@ -1,0 +1,7 @@
+file,category,file_size_bytes,message_count,topics,message_types,joint_count,joint_names,interval_median,interval_max,nan_inf_count,field_length_errors,position_limit_errors,interval_errors,duplicate_name_errors,quality_status,issues
+rosbag2_2026_11_17-13_00_50_0.mcap,normal,426959,1367,/joint_states,"{""/joint_states"": ""sensor_msgs/msg/JointState""}",6,joint_1;joint_2;joint_3;joint_4;joint_5;joint_6,0.09999691799999999,0.101719908,0,0,0,0,0,PASS,
+rosbag2_2026_11_17-14_03_01_0.mcap,normal,15649749,50944,/joint_states,"{""/joint_states"": ""sensor_msgs/msg/JointState""}",6,joint_1;joint_2;joint_3;joint_4;joint_5;joint_6,0.09999957,0.103273107,0,0,0,0,0,PASS,
+rosbag2_2026_11_17-16_12_03_0.mcap,normal,2845639,9244,/joint_states,"{""/joint_states"": ""sensor_msgs/msg/JointState""}",6,joint_1;joint_2;joint_3;joint_4;joint_5;joint_6,0.099999184,0.100606046,0,0,0,0,0,PASS,
+rosbag2_2026_11_17-16_29_55_0.mcap,fault_injection,105218,319,/joint_states,"{""/joint_states"": ""sensor_msgs/msg/JointState""}",6,joint_1;joint_2;joint_3;joint_4;joint_5;joint_6,0.0999995565,1.412504,0,0,1,1,0,ANOMALY_DETECTED,存在位置越界;存在时间间隔异常
+rosbag2_2026_11_17-16_43_38_0.mcap,fault_injection,111059,338,/joint_states,"{""/joint_states"": ""sensor_msgs/msg/JointState""}",7,joint_1;joint_2;joint_3;joint_4;joint_5;joint_6;joint_extra,0.100001698,0.101069197,1,0,1,0,0,ANOMALY_DETECTED,关节名称集合与预期不一致;存在NaN或Inf;存在位置越界
+rosbag2_2026_11_16-20_23_13_0.mcap,raw,4854,14,/chatter,"{""/chatter"": ""std_msgs/msg/String""}",0,,,,0,0,0,0,0,NOT_APPLICABLE,

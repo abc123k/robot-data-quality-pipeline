@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Python environments
+.venv/
+venv/
+env/
+mcap_env/
+mcap_ros_env/
+
+# ROS 2 generated files
+log/
+install/
+build/
+
+# MCAP raw data
+/data/*.mcap
+/data/**/*.mcap
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+
+# Original ROS 2 bag recording directories
+/rosbag2_*/
+

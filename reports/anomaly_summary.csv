@@ -1,0 +1,3 @@
+file,category,message_count,quality_status,joint_count,nan_inf_count,field_length_errors,position_limit_errors,interval_errors,duplicate_name_errors,interval_max,issues
+rosbag2_2026_11_17-16_29_55_0.mcap,fault_injection,319,ANOMALY_DETECTED,6,0,0,1,1,0,1.412504,存在位置越界;存在时间间隔异常
+rosbag2_2026_11_17-16_43_38_0.mcap,fault_injection,338,ANOMALY_DETECTED,7,1,0,1,0,0,0.101069197,关节名称集合与预期不一致;存在NaN或Inf;存在位置越界

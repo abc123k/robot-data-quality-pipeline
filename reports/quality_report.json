@@ -1,0 +1,21 @@
+{
+  "analyzed_files": [
+    "rosbag2_2026_11_16-20_23_13_0.mcap"
+  ],
+  "topic_count": 1,
+  "total_messages": 14,
+  "topics": [
+    {
+      "topic": "/chatter",
+      "message_count": 14,
+      "payload_bytes": 336,
+      "duration_sec": 13.520481,
+      "avg_frequency_hz": 0.962,
+      "median_interval_ms": 1000.012,
+      "max_interval_ms": 1520.523,
+      "duplicate_timestamp_count": 0,
+      "warning_gap_count": 1,
+      "critical_gap_count": 0
+    }
+  ]
+}
